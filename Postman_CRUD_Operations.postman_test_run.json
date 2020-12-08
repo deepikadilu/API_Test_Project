@@ -1,0 +1,216 @@
+{
+	"id": "41bf67e3-e83d-4f86-ba66-93ae02cceed8",
+	"name": "Postman_CRUD_Operations",
+	"timestamp": "2020-12-07T06:23:23.280Z",
+	"collection_id": "08077934-b09f-4408-8763-a76c49175644",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "aa0a3b97-3d4b-4a91-be17-e086744b72b6",
+			"name": "Get_ListUsers",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 185,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				185
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "51e781fd-3a86-46af-bd7e-571bbb787958",
+			"name": "Get_SingleUser",
+			"url": "https://reqres.in/api/user/?id=4",
+			"time": 58,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				58
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ad8d59b8-5619-490a-bc4b-cbcacf46fcb0",
+			"name": "Get_UserNotFound",
+			"url": "https://reqres.in/api/user/?id=15",
+			"time": 373,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				373
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3ff2b94c-eba4-4430-9f98-ca7b798c091a",
+			"name": "Get_list<resource>",
+			"url": "https://reqres.in/api/abc",
+			"time": 51,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				51
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b8b04481-48d1-4d64-b35a-98c0ba202c08",
+			"name": "Get_Single<resource>",
+			"url": "https://reqres.in/api/abc/2",
+			"time": 51,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				51
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bb8e5abb-5cd2-4a4b-af3e-e1b86c71766b",
+			"name": "Get_Single<Resouce>NotFound",
+			"url": "https://reqres.in/api/abc/20",
+			"time": 342,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				342
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "83d49228-5dac-4fee-a34c-60a654871ce7",
+			"name": "Post_CreateUser",
+			"url": "https://reqres.in/api/users/412",
+			"time": 350,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				350
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3e10a860-0e13-4737-a874-4142f7d2d384",
+			"name": "PUT_Update",
+			"url": "https://reqres.in/api/users/171",
+			"time": 325,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				325
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a8853391-8670-4468-9c79-ea7975c31ee6",
+			"name": "Delete",
+			"url": "https://reqres.in/api/users/171",
+			"time": 313,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				313
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2048,
+	"collection": {
+		"requests": [
+			{
+				"id": "aa0a3b97-3d4b-4a91-be17-e086744b72b6",
+				"method": "GET"
+			},
+			{
+				"id": "51e781fd-3a86-46af-bd7e-571bbb787958",
+				"method": "GET"
+			},
+			{
+				"id": "ad8d59b8-5619-490a-bc4b-cbcacf46fcb0",
+				"method": "GET"
+			},
+			{
+				"id": "3ff2b94c-eba4-4430-9f98-ca7b798c091a",
+				"method": "GET"
+			},
+			{
+				"id": "b8b04481-48d1-4d64-b35a-98c0ba202c08",
+				"method": "GET"
+			},
+			{
+				"id": "bb8e5abb-5cd2-4a4b-af3e-e1b86c71766b",
+				"method": "GET"
+			},
+			{
+				"id": "83d49228-5dac-4fee-a34c-60a654871ce7",
+				"method": "POST"
+			},
+			{
+				"id": "3e10a860-0e13-4737-a874-4142f7d2d384",
+				"method": "PUT"
+			},
+			{
+				"id": "a8853391-8670-4468-9c79-ea7975c31ee6",
+				"method": "DELETE"
+			}
+		]
+	}
+}
